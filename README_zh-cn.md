@@ -31,7 +31,7 @@ PoPoBot 提供了一系列 API，旨在为 PoPoIM 创建聊天机器人提供便
 从Pypi上安装：
 ```Bash
 pip install popobot
-``'
+```
 
 
 PoPoIM 以“会话 ID”的形式管理 Cookie，因此您需要登录设备上的 PoPoIM，通过抓包或F12来捕获 Cookie，并保持登录状态而不退出以获取 Cookie。
