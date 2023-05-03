@@ -1,6 +1,6 @@
 # PoPoBot
 
-[简体中文](README_zh-CN.md)
+[简体中文](README_zh-cn.md)
 
 A bot library for [PoPoIM](https://popoim.com). 
 
