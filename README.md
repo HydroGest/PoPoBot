@@ -47,28 +47,35 @@ bot.SendGroupMessage(groupId,'Hello world!')
 PoPoBot supports:
 
 ```Python
-SendGroupMessage(group,message)
-SendFriendMessage(friend , message)
+SendGroupMessage(group, message) # Send group message
+SendFriendMessage(friend, message) # Send friend message
 
-GetGroupMessage(group, limit=20)
-GetFriendMessage(friend, limit=20)
+GetGroupMessage(group, limit=20) # Get group messages
+GetFriendMessage(friend, limit=20) # Get friend messages
 
-GetInfo()
-GetSelfInfo()
-GetFriendsList()
-GetGroupList()
-GetChattings()
+GetInfo() # Get information
 
-GetApplyList()
-GetApplyDetail(nid)
-AgreeApply(nid)
-RefuseApply(nid)
+GetSelfInfo() # Get self information
+GetFriendsList() # Get friends list
+GetGroupList() # Get group list
+GetChattings() # Get chatting list
 
-GetGroupInfo(group)
-GroupKick(group,friend)
-GroupInvite(group,friend)
-GroupLeave(group)
-GroupDel(group)
+GetApplyList() # Get apply list
+GetApplyDetail(nid) # Get apply detail
+AgreeApply(nid) # Agree to apply
+RefuseApply(nid) # Refuse apply
 
-Logout()
+GetGroupInfo(group) # Get group information
+GroupKick(group, friend) # Kick member out of the group
+GroupInvite(group, friend) # Invite user to join group
+GroupLeave(group) # Leave group
+GroupDel(group) # Disband group
+
+ApplyFriend(friend) # Apply to add as a friends
+FriendDel(friend) # Delete a Friend
+
+Mute(group) # Mute the group
+UnMute(group) # Unmute the group
+
+Logout() # Logout
 ```
