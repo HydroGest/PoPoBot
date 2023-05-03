@@ -1,5 +1,7 @@
 # PoPoBot
 
+[简体中文](README_zh-CN.md)
+
 A bot library for [PoPoIM](https://popoim.com). 
 
 > "PoPoIM" is a series of PHP chat source codes, including H5 mobile version, web version, and uniapp version.
