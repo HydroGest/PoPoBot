@@ -52,29 +52,49 @@ bot.SendGroupMessage(groupId,'Hello world!')
 PoPoBot 支持：
 
 ```Python
-SendGroupMessage(group,message) # 发送群组消息
-SendFriendMessage(friend , message) # 发送好友消息
+SendGroupMessage(group, message) # 发送群组消息
 
-GetGroupMessage(group, limit=20) # 获取群消息
+SendFriendMessage(friend, message) # 发送好友消息
+
+GetGroupMessage(group, limit=20) # 获取群组消息
+
 GetFriendMessage(friend, limit=20) # 获取好友消息
 
 GetInfo() # 获取信息
 
 GetSelfInfo() # 获取自身信息
+
 GetFriendsList() # 获取好友列表
+
 GetGroupList() # 获取群组列表
+
 GetChattings() # 获取聊天列表
 
 GetApplyList() # 获取申请列表
+
 GetApplyDetail(nid) # 获取申请详情
+
 AgreeApply(nid) # 同意申请
+
 RefuseApply(nid) # 拒绝申请
 
 GetGroupInfo(group) # 获取群组信息
-GroupKick(group,friend) # 将成员踢出群组
-GroupInvite(group,friend) # 邀请用户加入群组
+
+GroupKick(group, friend) # 将成员踢出群组
+
+GroupInvite(group, friend) # 邀请用户加入群组
+
 GroupLeave(group) # 退出群组
+
 GroupDel(group) # 解散群组
+
+ApplyFriend(friend) # 申请添加为好友
+
+FriendDel(friend) # 删除好友
+
+Mute(group) # 全体禁言
+
+UnMute(group) # 取消全体禁言
 
 Logout() # 注销登录
 ```
