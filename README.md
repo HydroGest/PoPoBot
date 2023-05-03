@@ -22,6 +22,11 @@ The supported features include:
 And messages use Markdown, so you can send different type of content easily.
 
 ## Usage
+Install from Pypi:
+```Bash
+pip install popobot
+```
+
 
 PoPoIM manages cookies in the form of 'session IDs', so you need to obtain the cookie by logging in to PoPoIM on a device, capturing the cookie through packet capture, and keeping logged in without logging out.
 
